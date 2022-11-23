@@ -1,0 +1,159 @@
+* {
+  padding-left: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.topper {
+  width: 1350px;
+  height: 25px;
+  background-color: #00796b;
+}
+.inner {
+  position: relative;
+}
+.inner p {
+  margin-left: 150px;
+  color: white;
+}
+.inner a {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  text-decoration: none;
+  color: white;
+}
+.corner {
+  float: right;
+  margin-top: -20px;
+  margin-right: 3%;
+  color: white;
+}
+
+.mainbdy {
+  width: 1350px;
+  height: 600px;
+  background-color: #008374;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 10%;
+}
+.hero a {
+  text-decoration: none;
+  color: white;
+}
+.hero span {
+  color: #ff7763;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-right: 1px;
+  transition: 0.4s;
+}
+
+.txt h1 {
+  margin-top: 100px;
+  margin-left: 135px;
+  font-size: 45px;
+  color: white;
+}
+.txt p {
+  margin-top: 17px;
+  margin-left: 137px;
+  color: white;
+}
+.txt button {
+  width: 165px;
+  height: 55px;
+  margin-top: 3%;
+  margin-left: 135px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #1a9082;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.txt .btn2 {
+  width: 165px;
+  height: 55px;
+  margin-top: 3%;
+  margin-left: 35px;
+  border: transparent;
+  border-radius: 30px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mdl img {
+  margin-top: -18%;
+  margin-left: 52%;
+}
+
+.col {
+  margin-top: -10%;
+  margin-left: 8%;
+}
+.card {
+  width: 250px;
+  height: 220px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px rgb(92, 86, 86);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-color: #008d7d;
+}
+.col2 {
+  margin-top: -19.3%;
+  margin-left: 46%;
+}
+.card {
+  width: 250px;
+  height: 220px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-color: #008d7d;
+}
+.card {
+  color: white;
+}
+.card1 img {
+  margin-top: 19%;
+}
+.card2 img {
+  margin-top: 20%;
+}
+
+.card3 img {
+  margin-top: 20%;
+}
+
+.card4 img {
+  margin-top: 22%;
+}
